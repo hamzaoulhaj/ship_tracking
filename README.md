@@ -11,14 +11,14 @@ The first step is to set up the environment.
 conda env create -f trackenv.yml
 conda activate 
 ```
-We can use the sort model with any detection model. to use it with the yolov3:
+We can use the sort model with any detection model. 
+To use it with the yolov3:
 
 ```sh
 #download the yolov3 weight"
 wget https://pjreddie.com/media/files/yolov3.weights
 ```
 Change the video path on track.py
-//
 Then use the SORT algorithm on the output video.
 
 ```sh
