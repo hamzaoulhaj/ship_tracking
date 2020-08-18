@@ -18,7 +18,7 @@ To use it with the yolov3:
 #download the yolov3 weight"
 wget https://pjreddie.com/media/files/yolov3.weights
 ```
-Change the video path on track.py
+Change the video path on the python file  : track.py .
 Then use the SORT algorithm on the output video.
 
 ```sh
